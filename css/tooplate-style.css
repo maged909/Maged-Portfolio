@@ -118,9 +118,10 @@ b, strong {
 .animated-item {
   color: #ffc200;
 }
-
-.animated-item {
+span.animated-item{
   width:8.7em;
+}
+.animated-item {
   font-size: 38px;
   line-height: inherit;
   display: block;
