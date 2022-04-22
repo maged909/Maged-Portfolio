@@ -144,6 +144,7 @@ img.animated-img{
 }
 img#my-pic{
   margin-left: 100px;
+  width:300px
 }
 @media only screen and (max-width: 600px) {
   img.animated-img,img#my-pic{
@@ -153,6 +154,9 @@ img#my-pic{
   img#my-pic{
      margin-bottom: 200px;
   }
+}
+@media only screen and (max-width: 400px) {
+  
 }
 
 @keyframes BottomTotop {
