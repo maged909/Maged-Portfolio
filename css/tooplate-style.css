@@ -120,7 +120,7 @@ b, strong {
 }
 
 .animated-item {
-  width:600px;
+  width:8.7em;
   font-size: 38px;
   line-height: inherit;
   display: block;
@@ -137,6 +137,21 @@ b, strong {
 }
 .animated-item:nth-child(3n+3) {
   animation-delay: 4s;
+}
+img.animated-img{
+  width:400px;
+}
+img#my-pic{
+  margin-left: 100px;
+}
+@media only screen and (max-width: 600px) {
+  img.animated-img,img#my-pic{
+    width:300px;
+    margin-left:3rem;
+  }
+  img#my-pic{
+     margin-bottom: 200px;
+  }
 }
 
 @keyframes BottomTotop {
